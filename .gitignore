@@ -132,4 +132,4 @@ compiler.bat
 14.0/ 
 *.cer
 *.pkg
-.terraform/
+
