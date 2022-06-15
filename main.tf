@@ -3,8 +3,8 @@
 provider "aws" {
   # profile = "default"
   region  = "us-east-2"
-  access_key = "AKIAYSL2GUB6FTQRBZZQ"
-  secret_key = "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"
+  access_key = "xxx"
+  secret_key = "yyy"
 }
 
 
