@@ -1,12 +1,21 @@
 # provider define
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.27"
+    }
+  }
 
-provider "aws" {
-  # profile = "default"
-  region  = "us-east-2"
-  access_key = "xxx"
-  secret_key = "yyy"
+  required_version = ">= 0.14.9"
 }
 
+provider "aws" {
+  # access_key = "xxx"
+  # secret_key = "yyy"
+  profile = "default"
+  region  = "ap-northeast-1"
+}
 
 resource "aws_instance" "res-web" {
   ami           = "ami-0aeb7c931a5a61206"
