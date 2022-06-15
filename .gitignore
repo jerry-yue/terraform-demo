@@ -133,3 +133,5 @@ compiler.bat
 *.cer
 *.pkg
 .terraform/
+.terraform.*
+terraform.*
